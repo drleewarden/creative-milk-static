@@ -1,0 +1,30 @@
+{
+  "name": "marvel",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "next build && next export"
+  },
+  "dependencies": {
+    "js-md5": "^0.7.3",
+    "mime": "^2.5.2",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "sass": "^1.42.1",
+    "styled-components": "^5.3.1",
+    "swr": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/js-md5": "^0.4.3",
+    "@types/react": "17.0.20",
+    "@types/styled-components": "^5.1.14",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "typescript": "4.4.2"
+  }
+}
