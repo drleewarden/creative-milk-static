@@ -1,32 +1,45 @@
 /* // cards */
 .flip-card {
-  background-color: transparent;
-
-  height: 300px;
-  perspective: 1000px;
-  overflow: hidden;
-  // &:nth-child(3n + 1) {
-  //   width: 50%;
-  // }
-  &:first-child {
-    // width: 50%;
-    // height: 600px;
-    // align-self: stretch;
-    grid-row: 1 / 4;
-    height: auto;
+  width: 100%;
+  height: 200px;
+  grid-column: span 3;
+}
+@media only screen and (min-width: 768px) {
+  .flip-card-front {
     img {
-      height: 100%;
+      position: absolute;
+      left: -29%;
     }
   }
-  &:last-child {
-    grid-column: 2 / span 2;
-    grid-row: 3;
-    // grid-row: 1 / 3;
-    img {
-      top: -120px;
-      left: 0px;
-      width: 100%;
-      position: absolute;
+  .flip-card {
+    background-color: transparent;
+    grid-column: auto;
+    height: 300px;
+    perspective: 1000px;
+    overflow: hidden;
+    // &:nth-child(3n + 1) {
+    //   width: 50%;
+    // }
+    &:first-child {
+      // width: 50%;
+      // height: 600px;
+      // align-self: stretch;
+      grid-row: 1 / 4;
+      height: auto;
+      img {
+        height: 100%;
+      }
+    }
+    &:last-child {
+      grid-column: 2 / span 2;
+      grid-row: 3;
+      // grid-row: 1 / 3;
+      img {
+        top: -120px;
+        left: 0px;
+        width: 100%;
+        position: absolute;
+      }
     }
   }
 }
@@ -56,6 +69,10 @@
 
 .flip-card-front {
   color: black;
+  img {
+    position: absolute;
+    left: -29%;
+  }
 }
 
 .flip-card-back {
