@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 // import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import { Title } from "./styles";
+import { Title } from "../styles/styles";
 
 import React, { useState } from "react";
 import InputSelect from "../src/components/search";
@@ -16,6 +16,7 @@ interface IJobs {
   position: string;
   description: string;
   image: string;
+  colour: string;
 }
 const Home: NextPage = () => {
   const [jobs, setJobs] = useState<IJobs[]>(COMPANIES);
@@ -30,7 +31,7 @@ const Home: NextPage = () => {
     setJobs(char);
   };
   const clear = () => {
-    setJobs(allActiveCards);
+    // setJobs(allActiveCards);
   };
 
   return (
@@ -42,7 +43,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <Title>Creative Milk</Title>
+        <h1>Creative Milk</h1>
         <InputSelect inputSearchList={searchResults} clear={clear} />
         <div className={styles.grid}>
           {jobs &&

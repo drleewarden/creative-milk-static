@@ -1,9 +1,18 @@
 import React, { useState } from "react";
 import { Imag } from "./styles";
-
-export const Card: React.FC = ({ ind, job }) => {
+interface IJob {
+  image: string;
+  name: string;
+  colour: string;
+  description: string;
+}
+interface ICard {
+  job: IJob;
+  ind: number;
+}
+export const Card: React.FC<ICard> = ({ ind, job }) => {
   const [allActiveCards, setAllActiveCards] = useState<boolean[]>([]);
-  const hoverCard = (e, ind) => {
+  const hoverCard = (e: any, ind: any) => {
     console.log(e);
     setAllActiveCards({
       ...allActiveCards,
@@ -13,31 +22,6 @@ export const Card: React.FC = ({ ind, job }) => {
   };
   return (
     <>
-      {/* <div
-        key={ind}
-        id={ind + "-" + job?.name}
-        onMouseEnter={(e) => {
-          hoverCard(e, ind);
-        }}
-        onMouseLeave={(e) => {
-          hoverCard(e, ind);
-        }}
-        className={styles.card}
-      >
-        {allActiveCards[ind] && "testsdfds"}
-        <h3 className={styles.cardTitle}>{job?.name}</h3>
-        <div className={styles.imgWrapper}>
-          <img
-            className={styles.image}
-            src={`images/${job.image}`}
-            alt={"Picture of the  " + job?.name}
-          />
-        </div>
-        <br />
-        <div className={styles.decWrapper} style={{}}>
-          <i className={styles.cardDescription}>{job?.description}</i>
-        </div>
-      </div> */}
       <div className="flip-card">
         <div className="flip-card-inner">
           <div className="flip-card-front">
