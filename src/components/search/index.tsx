@@ -27,7 +27,6 @@ const InputSelect: React.FC<IProps> = ({ inputSearchList, clear }) => {
 
   return (
     <div className={styles.container}>
-      <label aria-label="Search">Search:</label>
       <input
         type="text"
         className={styles.search}

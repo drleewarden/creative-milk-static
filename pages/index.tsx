@@ -1,13 +1,15 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+
 // import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Home.module.scss";
 import { Title } from "../styles/styles";
 
 import React, { useState } from "react";
 import InputSelect from "../src/components/search";
 import { COMPANIES } from "../src/services/allPlacesWorked";
 import { Card } from "../src/components/card";
+import Heading from "../src/components/heading";
 
 interface IJobs {
   dates: string;
@@ -30,9 +32,6 @@ const Home: NextPage = () => {
     const char = filterArr(jobs, inputText);
     setJobs(char);
   };
-  const clear = () => {
-    // setJobs(allActiveCards);
-  };
 
   return (
     <div className={styles.container}>
@@ -43,8 +42,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1>Creative Milk</h1>
-        <InputSelect inputSearchList={searchResults} clear={clear} />
+        <Heading />
         <div className={styles.grid}>
           {jobs &&
             jobs.map((job: IJobs, index) => {

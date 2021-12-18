@@ -1,3 +1,5 @@
+@import "./globals.scss";
+
 /* // cards */
 .flip-card {
   width: 100%;
@@ -8,7 +10,7 @@
   .flip-card-front {
     img {
       position: absolute;
-      left: -29%;
+      left: -10%;
     }
   }
   .flip-card {
@@ -71,7 +73,7 @@
   color: black;
   img {
     position: absolute;
-    left: -29%;
+    left: -10%;
   }
 }
 
