@@ -8,7 +8,7 @@ interface IProps {
 const Typography: React.FC<IProps> = ({ as, text, styleType, children }) => {
   const Type = () => {
     if (as === "h1") {
-      return <h1 className={style.xl}>{text}</h1>;
+      return <h1 className={styleType}>{text}</h1>;
     }
     return <></>;
   };
