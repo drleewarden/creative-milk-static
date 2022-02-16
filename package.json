@@ -12,9 +12,11 @@
     "lintjs": "eslint --ext .ts,.tsx,.js,.jsx src/ pages/"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.0",
     "js-md5": "^0.7.3",
     "mime": "^2.5.2",
     "next": "11.1.2",
+    "postcss-cli": "^9.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "sass": "^1.42.1",
@@ -27,12 +29,13 @@
     "@types/styled-components": "^5.1.14",
     "@typescript-eslint/eslint-plugin": "^4.21.0",
     "@typescript-eslint/parser": "^4.21.0",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-import-helpers": "^1.1.0",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-react": "^7.23.2",
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2",
+    "tailwindcss": "^3.0.7",
     "typescript": "4.4.2"
   }
 }
