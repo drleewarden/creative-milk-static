@@ -2,7 +2,7 @@ import React, { ReactNode } from "react";
 
 // import ReactAsyncSelect from 'react-select/async'
 
-import styles from "./Search.module.css";
+import styles from "../search/Search.module.css";
 
 interface IProps {
   children: ReactNode;
