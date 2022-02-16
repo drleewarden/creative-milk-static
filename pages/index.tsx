@@ -53,7 +53,7 @@ const Home: NextPage = () => {
       </main>
 
       <footer className={styles.footer}>
-        <p>Darryn lee-warden</p>
+        <p>Darryn lee-warden - creative milk</p>
       </footer>
     </div>
   );
