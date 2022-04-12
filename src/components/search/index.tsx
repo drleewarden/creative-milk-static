@@ -27,7 +27,6 @@ const InputSelect: React.FC<IProps> = ({ inputSearchList, clear }) => {
 
   return (
     <div className={styles.container}>
-      SEARCH:
       <input
         type="text"
         className={styles.search}

@@ -4,6 +4,9 @@ import InputSelect from "../../../src/components/search";
 import { COMPANIES } from "../../../src/services/allPlacesWorked";
 import styles from "./Heading.module.scss";
 import { Title } from "../../../styles/styles";
+import Nav from "../nav";
+import { userStore } from "../../context/providers";
+
 interface IJobs {
   dates: string;
   technical: string;
@@ -14,8 +17,11 @@ interface IJobs {
   colour: string;
 }
 const Heading: React.FC = () => {
+  const { fullName } = userStore();
   const [jobs, setJobs] = useState<IJobs[]>(COMPANIES);
-
+  const downloadAction = () => {
+    console.log("sdgfds");
+  };
   const filterArr = (arr: IJobs[], text: string) => {
     return arr.filter((item) => item.name.toLowerCase().includes(text));
   };
@@ -27,13 +33,17 @@ const Heading: React.FC = () => {
     setJobs(char);
   };
   return (
-    <>
-      <Title>Creative Milk</Title>
+    <div>
+      <Title className={styles.hero__heading}>Creative Milk</Title>
+      <span className="pl-6">{fullName}</span>
+      <Nav
+        onClick={() => {
+          return downloadAction();
+        }}
+      />
       <InputSelect inputSearchList={searchResults} clear={clear} />
-      <Link href="/about">
-        <a className={styles.nav__item}>About Me</a>
-      </Link>
-    </>
+      <hr />
+    </div>
   );
 };
 export default Heading;
