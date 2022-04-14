@@ -1,15 +1,38 @@
+/** @type {import('next').NextConfig} */
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const path = require('path')
 module.exports = {
-	trailingSlash: false,
-	webpackDevMiddleware: config => {
-		config.watchOptions = {
-			poll: 1000,
-			aggregateTimeout: 300
-		}
+  eslint: {
+    dirs: ['src'],
+  },
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'styles')],
+  },
+  reactStrictMode: true,
 
-		return config
-	},
-	sassOptions: {
-		includePaths: [path.join(__dirname, 'styles')]
-	}
-}
+  // Uncoment to add domain whitelist
+  // images: {
+  //   domains: [
+  //     'res.cloudinary.com',
+  //   ],
+  // },
+
+  // SVGR
+  webpack(config) {
+    config.module.rules.push({
+      test: /\.svg$/i,
+      issuer: /\.[jt]sx?$/,
+      use: [
+        {
+          loader: '@svgr/webpack',
+          options: {
+            typescript: true,
+            icon: true,
+          },
+        },
+      ],
+    });
+
+    return config;
+  },
+};

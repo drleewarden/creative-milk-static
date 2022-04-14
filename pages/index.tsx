@@ -1,13 +1,14 @@
+import React, { useState } from "react";
+
 import type { NextPage } from "next";
 import Head from "next/head";
 
 // import Image from "next/image";
-import styles from "../styles/Home.module.scss";
 
-import React, { useState } from "react";
-import { COMPANIES } from "../src/services/allPlacesWorked";
 import { Card } from "../src/components/card";
 import Heading from "../src/components/heading";
+import { COMPANIES } from "../src/services/allPlacesWorked";
+import styles from "../styles/Home.module.scss";
 
 interface IJobs {
   dates: string;
@@ -48,10 +49,10 @@ const Home: NextPage = () => {
           href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300&display=swap"
           rel="stylesheet"
         ></link>
-        {/* <link
-          href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+        <link
+          href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,800;1,100&display=swap"
           rel="stylesheet"
-        /> */}
+        ></link>
       </Head>
 
       <main className={styles.main}>

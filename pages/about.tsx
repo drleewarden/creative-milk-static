@@ -1,7 +1,9 @@
 import type { NextPage } from "next";
+
 import BaseTemplate from "@/components/template";
-import Typography from "../src/components/typography";
+
 import Heading from "../src/components/heading";
+import Typography from "../src/components/typography";
 import styles from "../styles/Home.module.scss";
 
 // import Nav from "../src/components/nav";
