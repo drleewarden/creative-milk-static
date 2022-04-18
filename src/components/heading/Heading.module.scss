@@ -1,3 +1,6 @@
+.heading {
+  position: relative;
+}
 .nav__item {
   padding: 5px;
 }
@@ -8,4 +11,12 @@
   margin: 0;
   margin-left: 27px;
   height: 60px;
+}
+.hr {
+  border-color: #a6a4af;
+}
+.close_secondary_nav {
+  position: absolute;
+  right: 0;
+  margin: -20px 9px;
 }

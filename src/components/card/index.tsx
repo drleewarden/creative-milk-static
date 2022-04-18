@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Imag } from "./styles";
+
+import { Imag, Title } from "./styles";
 interface IJob {
   image: string;
   name: string;
@@ -34,7 +35,7 @@ export const Card: React.FC<ICard> = ({ ind, job }) => {
             className="flip-card-back"
             style={{ backgroundColor: job.colour }}
           >
-            <h1>{job?.name}</h1>
+            <h1 className={Title}>{job?.name}</h1>
             <p>{job?.description}</p>
           </div>
         </div>

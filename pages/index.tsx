@@ -56,8 +56,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <p className="killer p-4">sdfsdfsdfdsfds</p>
-        <Heading />
+        <Heading classN="cm-container" />
         <div className={styles.grid}>
           {jobs &&
             jobs.map((job: IJobs, index) => {

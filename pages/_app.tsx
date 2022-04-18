@@ -1,3 +1,5 @@
+import React from "react";
+
 import "../styles/global.scss";
 // import "/styles/base.scss";
 // import "../styles/base.scss";

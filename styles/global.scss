@@ -1,6 +1,7 @@
 @import "~tailwindcss/base";
 @import "~tailwindcss/components";
 @import "~tailwindcss/utilities";
+@import "./cards.scss";
 
 html,
 body {
@@ -22,7 +23,7 @@ a {
 .container {
   padding: 100px 10%;
 }
-.killer {
-  color: pink;
-  font-size: 30px;
+.cm-container {
+  width: 80%;
+  margin: 0 auto;
 }

@@ -1,3 +1,5 @@
+import React from "react";
+
 import type { NextPage } from "next";
 
 import BaseTemplate from "@/components/template";
@@ -11,9 +13,9 @@ import styles from "../styles/Home.module.scss";
 const About: NextPage = () => {
   // const downloadAction = () => {};
   return (
-    <BaseTemplate>
+    <div>
       <main className={styles.main}>
-        <Heading />
+        <Heading classN="cm-container" />
       </main>
       <div className="container">
         {/* <Nav download={downloadAction()} /> */}
@@ -21,7 +23,7 @@ const About: NextPage = () => {
           <h1 className="text-3xl font-bold underline">Hello world!</h1>
         </Typography>
       </div>
-    </BaseTemplate>
+    </div>
   );
 };
 
