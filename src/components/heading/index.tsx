@@ -51,7 +51,7 @@ const Heading: React.FC<IProps> = ({ classN }: IProps) => {
       </div>
       <hr className={`${styles.hr} drop-shadow-xl`} />
       {openDropdown && (
-        <div className="p-8 shadow-md">
+        <div className={`${styles.secondary_nav} p-8 shadow-md`}>
           <div
             className={styles.close_secondary_nav}
             onClick={() => {
