@@ -8,6 +8,7 @@
   cursor: pointer;
   border: 1px solid black;
 }
+
 .container {
   display: inline-block;
   width: 70%;

@@ -2,7 +2,15 @@
 @import "~tailwindcss/components";
 @import "~tailwindcss/utilities";
 @import "./cards.scss";
-
+@font-face {
+  font-family: "Zen Kaku Gothic Antique";
+  src: url("/fonts/ZenKakuGothicAntique-Regular.ttf");
+  src: url("/fonts/ZenKakuGothicAntique-Regular.ttf") format("ttf"),
+  }
+  @font-face {
+    font-family: "Roboto-Regular";
+    src: url('/fonts/Roboto-Regular.ttf');
+    }
 html,
 body {
   display: block !important;
@@ -11,7 +19,9 @@ body {
   font-family: "Alegreya Sans", sans-serif;
   font-weight: 300;
 }
-
+h1{
+  font-family: "Roboto-Regular", sans-serif !important;
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -20,8 +30,21 @@ a {
 * {
   box-sizing: border-box;
 }
+ol.cm-ol, ul.cm-ol
+ {
+  list-style: auto;
+  margin: 2rem;
+  padding: 2rem;
+}
+ol.cm-ol{
+  li{
+      padding:1rem;
+  }
+}
+
 .container {
-  padding: 100px 10%;
+  padding:40px 10% 100px 10%;
+  align-items: flex-start;
 }
 .cm-container {
   width: 80%;

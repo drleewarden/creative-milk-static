@@ -1,11 +1,13 @@
-import React from "react";
+import React from 'react'
 
-import Link from "next/link";
+import Link from 'next/link'
 
-import styles from "./nav.module.css";
+import { ChevronDownIcon } from '@heroicons/react/24/solid'
+
+import styles from './nav.module.css'
 
 export interface IProps {
-  onClick: () => void;
+  onClick: () => void
 }
 const Nav: React.FC<IProps> = ({ onClick }) => {
   return (
@@ -40,13 +42,17 @@ const Nav: React.FC<IProps> = ({ onClick }) => {
             </a>
           </li>
           <li className="mr-6">
-            <a className="cursor-not-allowed text-gray-400" href="#">
-              <button onClick={onClick}>drop down</button>
+            
+          <button onClick={onClick} >
+            <a style={{cursor: 'pointer'}} className="flex cursor-not-allowed text-gray-400" href="#">
+              drop down{' '}
+              <ChevronDownIcon className="text-black-500 h-6 w-6" />
             </a>
+            </button>
           </li>
         </ul>
       </nav>
     </div>
-  );
-};
-export default Nav;
+  )
+}
+export default Nav
