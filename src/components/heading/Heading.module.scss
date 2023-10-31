@@ -1,3 +1,28 @@
+.heading {
+  position: relative;
+}
 .nav__item {
   padding: 5px;
+}
+.hero__heading {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-size: 4rem;
+  padding: 0;
+  margin: 0;
+  margin-left: 27px;
+  height: 60px;
+}
+.hr {
+  border-color: #a6a4af;
+}
+.close_secondary_nav {
+  position: absolute;
+  right: 0;
+  margin: -20px 9px;
+}
+.secondary_nav {
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  background-color: white;
 }

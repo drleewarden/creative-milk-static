@@ -1,33 +1,32 @@
-import React, { useState } from "react";
+import React, { useState } from 'react'
 
 // import ReactAsyncSelect from 'react-select/async'
 
-import styles from "./Search.module.css";
+import styles from './Search.module.css'
 
 interface IProps {
-  inputSearchList(searchVal: string): any;
-  clear: () => void;
+  inputSearchList(searchVal: string): any
+  clear: () => void
 }
 const InputSelect: React.FC<IProps> = ({ inputSearchList, clear }) => {
-  const [inputValue, setInputValue] = useState("");
+  const [inputValue, setInputValue] = useState('')
 
   const searchBox = async (evt: any) => {
-    evt.preventDefault();
-    const val = typeof evt === "string" ? evt : evt.target.value;
-    setInputValue(val);
+    evt.preventDefault()
+    const val = typeof evt === 'string' ? evt : evt.target.value
+    setInputValue(val)
     // check there are 3 characters before search
     if (val.length >= 3) {
-      inputSearchList(val);
-      console.log(evt);
+      inputSearchList(val)
+      console.log(evt)
       // check there is a result
     } else {
-      clear();
+      clear()
     }
-  };
+  }
 
   return (
     <div className={styles.container}>
-      SEARCH:
       <input
         type="text"
         className={styles.search}
@@ -38,6 +37,6 @@ const InputSelect: React.FC<IProps> = ({ inputSearchList, clear }) => {
         onChange={searchBox}
       />
     </div>
-  );
-};
-export default InputSelect;
+  )
+}
+export default InputSelect

@@ -45,7 +45,7 @@ module.exports = {
         args: 'after-used',
       },
     ],
-    'no-console': ['warn', { allow: ['warn', 'error']}],
+    'no-console': ['warn', { allow: ['warn', 'error'] }],
     'import-helpers/order-imports': [
       'warn',
       {

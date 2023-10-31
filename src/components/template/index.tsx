@@ -8,6 +8,6 @@ interface IProps {
   children: ReactNode;
 }
 const BaseTemplate: React.FC<IProps> = ({ children }) => {
-  return <div className={styles.container}>ferfew:{children}</div>;
+  return <div className={styles.container}>{children}</div>;
 };
 export default BaseTemplate;
