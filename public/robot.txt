@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: https://mdbwip.staging.service.bom.gov.au/
+Disallow: https://feature-develop-mdbwip.nonprod.service.bom.gov.au/
+Allow: https://mdbwip.bom.gov.au/
+https://mdbwip.staging.service.bom.gov.au/nogooglebot/
+https://feature-develop-mdbwip.nonprod.service.bom.gov.au/nogooglebot/

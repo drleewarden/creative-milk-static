@@ -1,0 +1,442 @@
+{
+    "recipes": [
+      {
+        "name": "Classic Spaghetti Bolognese",
+        "description": "A hearty and flavorful Italian pasta dish with a rich tomato-based meat sauce.",
+        "ingredients": [
+          "400g spaghetti",
+          "500g ground beef",
+          "1 onion, finely chopped",
+          "2 cloves garlic, minced",
+          "400g canned crushed tomatoes",
+          "2 tablespoons tomato paste",
+          "1 teaspoon dried oregano",
+          "1 teaspoon dried basil",
+          "1/2 teaspoon salt",
+          "1/4 teaspoon black pepper",
+          "2 tablespoons olive oil",
+          "Grated Parmesan cheese (for serving)"
+        ],
+        "instructions": [
+          "Cook the spaghetti according to package instructions until al dente.",
+          "In a large pan, heat olive oil over medium heat. Add chopped onions and minced garlic. Sauté until onions are translucent.",
+          "Add ground beef to the pan and cook until browned and fully cooked.",
+          "Stir in crushed tomatoes, tomato paste, dried oregano, dried basil, salt, and black pepper. Simmer for 20 minutes, stirring occasionally.",
+          "Serve the Bolognese sauce over the cooked spaghetti. Top with grated Parmesan cheese.",
+          "Enjoy your Classic Spaghetti Bolognese!"
+        ],
+        "image": "food/spaghetti_bolognese.jpg"
+      },
+      {
+        "name": "Roasted Garlic Rosemary Chicken",
+        "description": "A succulent and aromatic chicken dish roasted with garlic and rosemary.",
+        "ingredients": [
+          "1 whole chicken (about 1.5 kg)",
+          "6 cloves garlic, minced",
+          "2 sprigs fresh rosemary",
+          "4 tablespoons olive oil",
+          "1 teaspoon salt",
+          "1/2 teaspoon black pepper",
+          "1 lemon, sliced",
+          "1 cup chicken broth"
+        ],
+        "instructions": [
+          "Preheat the oven to 375°F (190°C).",
+          "Pat the chicken dry with paper towels. Rub the chicken with 2 tablespoons of olive oil, salt, and black pepper.",
+          "Place minced garlic and fresh rosemary under the skin of the chicken.",
+          "In a roasting pan, add the remaining 2 tablespoons of olive oil and place the chicken on top.",
+          "Arrange lemon slices around the chicken and pour chicken broth into the pan.",
+          "Roast the chicken in the preheated oven for about 1 hour and 30 minutes or until the internal temperature reaches 165°F (74°C).",
+          "Let the chicken rest for 10 minutes before carving.",
+          "Serve the Roasted Garlic Rosemary Chicken with your favorite side dishes.",
+          "Enjoy your flavorful and tender chicken!"
+        ],
+        "image": "food/roasted_garlic_chicken.jpg"
+      },
+      {
+        "name": "Creamy Tomato Basil Soup",
+        "description": "A comforting and creamy tomato soup with the aromatic flavor of fresh basil.",
+        "ingredients": [
+          "2 tablespoons butter",
+          "1 onion, chopped",
+          "2 cloves garlic, minced",
+          "800g canned crushed tomatoes",
+          "4 cups vegetable broth",
+          "1/2 cup heavy cream",
+          "1/4 cup chopped fresh basil",
+          "Salt and pepper to taste",
+          "Croutons (for serving)"
+        ],
+        "instructions": [
+          "In a large pot, melt the butter over medium heat. Add chopped onions and minced garlic. Sauté until onions are soft and translucent.",
+          "Add crushed tomatoes and vegetable broth to the pot. Bring to a boil, then reduce heat and simmer for 20 minutes.",
+          "Using an immersion blender, puree the soup until smooth. Alternatively, you can blend the soup in batches using a regular blender.",
+          "Stir in heavy cream and chopped fresh basil. Season with salt and pepper to taste.",
+          "Serve the Creamy Tomato Basil Soup hot, topped with croutons.",
+          "Enjoy the comforting goodness of this delicious soup!"
+        ],
+        "image": "food/tomato_basil_soup.jpg"
+      },
+      {
+        "name": "Cheesy Baked Ziti",
+        "description": "A delightful baked pasta dish with ziti, marinara sauce, and layers of melted cheese.",
+        "ingredients": [
+          "400g ziti pasta",
+          "2 cups marinara sauce",
+          "1 cup ricotta cheese",
+          "1 cup shredded mozzarella cheese",
+          "1/2 cup grated Parmesan cheese",
+          "1/4 cup chopped fresh parsley",
+          "1/2 teaspoon dried oregano",
+          "1/2 teaspoon garlic powder",
+          "Salt and pepper to taste"
+        ],
+        "instructions": [
+          "Preheat the oven to 375°F (190°C). Grease a baking dish with cooking spray.",
+          "Cook the ziti pasta according to package instructions until al dente. Drain and set aside.",
+          "In a large bowl, mix together ricotta cheese, half of the shredded mozzarella, half of the grated Parmesan, chopped parsley, dried oregano, garlic powder, salt, and pepper.",
+          "In the greased baking dish, spread a layer of cooked ziti. Top with a layer of marinara sauce and a dollop of the ricotta cheese mixture.",
+          "Repeat the layers until all the ingredients are used, finishing with a layer of marinara sauce and the remaining shredded mozzarella and grated Parmesan on top.",
+          "Bake in the preheated oven for 20-25 minutes or until the cheese is bubbly and golden.",
+          "Let the Cheesy Baked Ziti cool for a few minutes before serving.",
+          "Enjoy the cheesy goodness of this comforting pasta dish!"
+        ],
+        "image": "food/cheesy_baked_ziti.jpg"
+      },
+      {
+        "name": "Grilled Lemon Herb Salmon",
+        "description": "A light and flavorful salmon dish marinated in a zesty lemon and herb sauce.",
+        "ingredients": [
+          "4 salmon fillets",
+          "2 lemons, juiced and zested",
+          "3 tablespoons olive oil",
+          "2 cloves garlic, minced",
+          "1 tablespoon chopped fresh dill",
+          "1 tablespoon chopped fresh parsley",
+          "Salt and pepper to taste"
+        ],
+        "instructions": [
+          "In a bowl, whisk together lemon juice, lemon zest, olive oil, minced garlic, chopped dill, chopped parsley, salt, and pepper.",
+          "Place the salmon fillets in a shallow dish and pour the marinade over them. Make sure the salmon is evenly coated with the marinade.",
+          "Cover the dish and refrigerate for at least 30 minutes to marinate the salmon.",
+          "Preheat the grill to medium-high heat. Brush the grill grates with oil to prevent sticking.",
+          "Remove the salmon from the marinade and discard the marinade.",
+          "Grill the salmon fillets for 4-5 minutes on each side or until cooked through and slightly charred on the edges.",
+          "Serve the Grilled Lemon Herb Salmon with a fresh salad or your favorite side dishes.",
+          "Enjoy the light and zesty flavors of this delicious salmon!"
+        ],
+        "image": "food/grilled_lemon_salmon.jpg"
+      },
+      {
+        "name": "Mouthwatering BBQ Ribs",
+        "description": "Tender and succulent BBQ ribs coated with a finger-licking homemade sauce.",
+        "ingredients": [
+          "2 racks of pork ribs",
+          "1 cup BBQ sauce",
+          "1/4 cup brown sugar",
+          "2 tablespoons apple cider vinegar",
+          "1 teaspoon smoked paprika",
+          "1 teaspoon garlic powder",
+          "1 teaspoon onion powder",
+          "Salt and pepper to taste"
+        ],
+        "instructions": [
+          "Preheat the oven to 300°F (150°C).",
+          "Remove the membrane from the back of the ribs and pat them dry with paper towels.",
+          "In a bowl, mix together BBQ sauce, brown sugar, apple cider vinegar, smoked paprika, garlic powder, onion powder, salt, and pepper.",
+          "Rub the mixture all over the ribs, coating them evenly.",
+          "Wrap the ribs tightly in aluminum foil and place them on a baking sheet.",
+          "Bake the ribs in the preheated oven for 2.5 to 3 hours or until tender.",
+          "Remove the foil and brush the ribs with additional BBQ sauce.",
+          "Grill the ribs on a preheated grill for 5-10 minutes on each side, brushing with more BBQ sauce as needed.",
+          "Serve the Mouthwatering BBQ Ribs with coleslaw or your favorite side dishes.",
+          "Enjoy the finger-licking goodness of these delicious ribs!"
+        ],
+        "image": "food/bbq_ribs.jpg"
+      },
+      {
+        "name": "Creamy Garlic Butter Shrimp",
+        "description": "Plump and succulent shrimp sautéed in a creamy garlic butter sauce.",
+        "ingredients": [
+          "500g large shrimp, peeled and deveined",
+          "4 tablespoons butter",
+          "4 cloves garlic, minced",
+          "1 cup heavy cream",
+          "1/4 cup chicken broth",
+          "1 tablespoon lemon juice",
+          "1/4 teaspoon red pepper flakes",
+          "Salt and pepper to taste",
+          "Chopped fresh parsley (for garnish)"
+        ],
+        "instructions": [
+          "In a large pan, melt butter over medium heat. Add minced garlic and sauté until fragrant.",
+          "Add shrimp to the pan and cook until they turn pink and are fully cooked.",
+          "Stir in heavy cream, chicken broth, lemon juice, red pepper flakes, salt, and pepper. Simmer for a few minutes until the sauce thickens.",
+          "Garnish the Creamy Garlic Butter Shrimp with chopped fresh parsley.",
+          "Serve the shrimp over cooked rice or pasta.",
+          "Enjoy the indulgent and creamy goodness of this shrimp dish!"
+        ],
+        "image": "food/garlic_butter_shrimp.jpg"
+      },
+      {
+        "name": "Homemade Margherita Pizza",
+        "description": "A classic Italian pizza with a thin crust, fresh tomatoes, mozzarella, and basil.",
+        "ingredients": [
+          "1 pizza dough (store-bought or homemade)",
+          "1/2 cup pizza sauce",
+          "1 1/2 cups shredded mozzarella cheese",
+          "1 large tomato, sliced",
+          "Fresh basil leaves",
+          "1 tablespoon olive oil",
+          "Salt and pepper to taste"
+        ],
+        "instructions": [
+          "Preheat the oven to 475°F (245°C).",
+          "Roll out the pizza dough on a floured surface to your desired thickness.",
+          "Transfer the dough to a pizza stone or baking sheet.",
+          "Spread pizza sauce evenly over the dough, leaving a small border around the edges.",
+          "Sprinkle shredded mozzarella cheese over the sauce.",
+          "Arrange tomato slices on top of the cheese. Season with salt and pepper.",
+          "Drizzle olive oil over the pizza.",
+          "Bake the Homemade Margherita Pizza in the preheated oven for about 12-15 minutes or until the crust is golden and the cheese is bubbly.",
+          "Remove the pizza from the oven and garnish with fresh basil leaves.",
+          "Slice and serve the delicious Margherita Pizza.",
+          "Enjoy the simple and classic flavors of this Italian favorite!"
+        ],
+        "image": "food/margherita_pizza.jpg"
+      },
+      {
+        "name": "Gourmet Beef Burger",
+        "description": "A juicy and gourmet beef burger with caramelized onions, Gruyere cheese, and aioli sauce.",
+        "ingredients": [
+          "4 beef burger patties",
+          "4 hamburger buns",
+          "1 large onion, thinly sliced",
+          "4 slices Gruyere cheese",
+          "1/4 cup mayonnaise",
+          "2 tablespoons Dijon mustard",
+          "2 tablespoons olive oil",
+          "Salt and pepper to taste",
+          "Lettuce, tomato, and pickles (for garnish)"
+        ],
+        "instructions": [
+          "Preheat the grill or stovetop griddle to medium-high heat.",
+          "In a skillet, heat olive oil over medium heat. Add thinly sliced onions and sauté until caramelized.",
+          "Season the beef burger patties with salt and pepper.",
+          "Grill the burger patties for 4-5 minutes on each side or until cooked to your desired doneness.",
+          "During the last minute of grilling, place a slice of Gruyere cheese on each patty to melt.",
+          "In a small bowl, mix together mayonnaise and Dijon mustard to make the aioli sauce.",
+          "Toast the hamburger buns on the grill for a minute or until slightly browned.",
+          "Spread the aioli sauce on the bottom half of each bun.",
+          "Top with a grilled burger patty, caramelized onions, lettuce, tomato, and pickles.",
+          "Cover with the top half of the bun.",
+          "Serve the Gourmet Beef Burger with your favorite side dishes.",
+          "Enjoy the delicious and gourmet flavors of this burger!"
+        ],
+        "image": "food/gourmet_beef_burger.jpg"
+      },
+      {
+        "name": "Crispy Baked Chicken Tenders",
+        "description": "Tender and crispy chicken tenders coated in a seasoned breadcrumb crust.",
+        "ingredients": [
+          "500g chicken tenders",
+          "1 cup breadcrumbs",
+          "1/2 cup grated Parmesan cheese",
+          "1 teaspoon paprika",
+          "1 teaspoon garlic powder",
+          "1/2 teaspoon salt",
+          "1/4 teaspoon black pepper",
+          "1/4 cup all-purpose flour",
+          "2 large eggs, beaten",
+          "Cooking spray or olive oil"
+        ],
+        "instructions": [
+          "Preheat the oven to 425°F (220°C). Line a baking sheet with parchment paper and lightly grease with cooking spray or olive oil.",
+          "In a shallow dish, mix together breadcrumbs, grated Parmesan cheese, paprika, garlic powder, salt, and black pepper.",
+          "Place all-purpose flour in a separate shallow dish, and beaten eggs in another shallow dish.",
+          "Dip each chicken tender in the flour, shaking off excess flour.",
+          "Then dip the chicken tender in the beaten eggs.",
+          "Finally, coat the chicken tender in the breadcrumb mixture, pressing the breadcrumbs onto the chicken to adhere.",
+          "Place the breaded chicken tenders on the prepared baking sheet.",
+          "Bake in the preheated oven for 15-20 minutes or until the chicken tenders are golden and cooked through.",
+          "Serve the Crispy Baked Chicken Tenders with your favorite dipping sauces.",
+          "Enjoy the crunchy and flavorful chicken tenders!"
+        ],
+        "image": "food/crispy_chicken_tenders.jpg"
+      },
+      {
+        "name": "Homemade Beef Lasagna",
+        "description": "A classic and comforting layered pasta dish with beef, cheese, and tomato sauce.",
+        "ingredients": [
+          "400g lasagna noodles",
+          "500g ground beef",
+          "1 onion, finely chopped",
+          "2 cloves garlic, minced",
+          "800g canned crushed tomatoes",
+          "2 tablespoons tomato paste",
+          "1 teaspoon dried oregano",
+          "1 teaspoon dried basil",
+          "1/2 teaspoon salt",
+          "1/4 teaspoon black pepper",
+          "1 cup ricotta cheese",
+          "2 cups shredded mozzarella cheese",
+          "1 cup grated Parmesan cheese",
+          "Fresh parsley (for garnish)"
+        ],
+        "instructions": [
+          "Preheat the oven to 375°F (190°C). Grease a 9x13-inch baking dish.",
+          "Cook the lasagna noodles according to package instructions until al dente. Drain and set aside.",
+          "In a large pan, cook ground beef over medium heat until browned. Add chopped onions and minced garlic, and sauté until onions are translucent.",
+          "Stir in crushed tomatoes, tomato paste, dried oregano, dried basil, salt, and black pepper. Simmer for 10 minutes, stirring occasionally.",
+          "In a bowl, mix together ricotta cheese and 1 cup of shredded mozzarella cheese.",
+          "Spread a layer of meat sauce in the prepared baking dish.",
+          "Arrange a layer of cooked lasagna noodles on top of the sauce.",
+          "Spread half of the ricotta cheese mixture over the noodles.",
+          "Repeat the layers, finishing with a layer of meat sauce on top.",
+          "Sprinkle grated Parmesan cheese and the remaining shredded mozzarella on the top layer.",
+          "Cover the baking dish with aluminum foil and bake in the preheated oven for 25 minutes.",
+          "Remove the foil and bake for an additional 10 minutes or until the cheese is bubbly and golden.",
+          "Garnish the Homemade Beef Lasagna with fresh parsley.",
+          "Let the lasagna cool for a few minutes before slicing and serving.",
+          "Enjoy the comforting and cheesy goodness of this classic dish!"
+        ],
+        "image": "food/beef_lasagna.jpg"
+      },
+      {
+        "name": "Creamy Mushroom Risotto",
+        "description": "A rich and creamy Italian rice dish with flavorful mushrooms and Parmesan cheese.",
+        "ingredients": [
+          "2 cups Arborio rice",
+          "6 cups vegetable broth",
+          "1 cup white wine",
+          "2 cups sliced mushrooms (such as cremini or button)",
+          "1 onion, finely chopped",
+          "3 cloves garlic, minced",
+          "1/2 cup grated Parmesan cheese",
+          "2 tablespoons butter",
+          "2 tablespoons olive oil",
+          "Salt and pepper to taste",
+          "Chopped fresh parsley (for garnish)"
+        ],
+        "instructions": [
+          "In a saucepan, heat vegetable broth over medium heat. Keep it warm but not boiling.",
+          "In a large pan, heat olive oil and 1 tablespoon of butter over medium heat. Add chopped onions and sauté until they become soft.",
+          "Add minced garlic and sliced mushrooms to the pan. Sauté until the mushrooms are cooked and tender.",
+          "Stir in Arborio rice and cook for 1-2 minutes until lightly toasted.",
+          "Pour white wine into the pan and cook until it is mostly absorbed by the rice.",
+          "Add a ladleful of warm vegetable broth to the rice and stir until it is mostly absorbed. Continue adding broth, one ladleful at a time, and stirring constantly.",
+          "Repeat this process until the rice is creamy and cooked al dente. This will take about 18-20 minutes.",
+          "Stir in grated Parmesan cheese and the remaining 1 tablespoon of butter. Season with salt and pepper to taste.",
+          "Garnish the Creamy Mushroom Risotto with chopped fresh parsley.",
+          "Serve the risotto as a delicious main course or as a side dish.",
+          "Enjoy the rich and creamy flavors of this Italian classic!"
+        ],
+        "image": "food/mushroom_risotto.jpg"
+      },
+      {
+        "name": "Sizzling Beef Fajitas",
+        "description": "Flavorful and sizzling beef fajitas with bell peppers, onions, and Tex-Mex spices.",
+        "ingredients": [
+          "500g beef sirloin or flank steak, thinly sliced",
+          "1 red bell pepper, sliced",
+          "1 green bell pepper, sliced",
+          "1 onion, thinly sliced",
+          "2 tablespoons vegetable oil",
+          "2 tablespoons lime juice",
+          "2 teaspoons chili powder",
+          "1 teaspoon ground cumin",
+          "1/2 teaspoon paprika",
+          "1/2 teaspoon garlic powder",
+          "1/4 teaspoon cayenne pepper (optional)",
+          "Salt and pepper to taste",
+          "Flour tortillas",
+          "Sour cream, salsa, guacamole (for serving)"
+        ],
+        "instructions": [
+          "In a bowl, combine sliced beef, vegetable oil, lime juice, chili powder, ground cumin, paprika, garlic powder, cayenne pepper (if using), salt, and pepper. Mix well and let it marinate for 15-30 minutes.",
+          "In a large skillet or griddle, heat some vegetable oil over medium-high heat.",
+          "Add marinated beef slices to the hot skillet and cook for 2-3 minutes per side or until the beef is cooked to your desired doneness.",
+          "Remove the beef from the skillet and set it aside.",
+          "In the same skillet, add sliced bell peppers and onions. Sauté until they are slightly tender.",
+          "Return the cooked beef to the skillet with the bell peppers and onions. Toss everything together to combine.",
+          "Warm the flour tortillas on the skillet or in the microwave.",
+          "Serve the Sizzling Beef Fajitas on warm tortillas, accompanied by sour cream, salsa, and guacamole.",
+          "Enjoy assembling your own delicious beef fajitas with your favorite toppings!"
+        ],
+        "image": "food/beef_fajitas.jpg"
+      },
+      {
+        "name": "Lemon Blueberry Cheesecake Bars",
+        "description": "Creamy and tangy cheesecake bars with a delightful blueberry swirl and a buttery graham cracker crust.",
+        "ingredients": [
+          "2 cups graham cracker crumbs",
+          "1/2 cup unsalted butter, melted",
+          "16 ounces cream cheese, softened",
+          "1 cup granulated sugar",
+          "2 large eggs",
+          "1 teaspoon vanilla extract",
+          "Zest of 1 lemon",
+          "1/4 cup lemon juice",
+          "1 cup fresh blueberries",
+          "1/4 cup granulated sugar",
+          "1 tablespoon cornstarch"
+        ],
+        "instructions": [
+          "Preheat the oven to 325°F (160°C). Grease a 9x13-inch baking dish.",
+          "In a bowl, mix graham cracker crumbs and melted butter. Press the mixture firmly into the bottom of the prepared baking dish to form the crust.",
+          "In a separate bowl, beat softened cream cheese and 1 cup of granulated sugar until smooth and creamy.",
+          "Add eggs, one at a time, beating well after each addition.",
+          "Mix in vanilla extract, lemon zest, and lemon juice.",
+          "In a small saucepan, combine blueberries, 1/4 cup of granulated sugar, and cornstarch. Cook over medium heat, stirring frequently, until the mixture thickens and the blueberries release their juices.",
+          "Pour the cream cheese mixture over the graham cracker crust in the baking dish.",
+          "Drop spoonfuls of the blueberry mixture onto the cream cheese layer, and swirl it gently with a knife to create a marbled effect.",
+          "Bake in the preheated oven for 35-40 minutes or until the edges are set and the center is slightly jiggly.",
+          "Remove the Lemon Blueberry Cheesecake Bars from the oven and let them cool to room temperature.",
+          "Chill the bars in the refrigerator for at least 2 hours before slicing and serving.",
+          "Enjoy the creamy and tangy flavors of these delicious cheesecake bars!"
+        ],
+        "image": "food/blueberry_cheesecake_bars.jpg"
+      },
+      {
+        "name": "Vegetable Pad Thai",
+        "description": "A flavorful and savory Thai noodle dish with stir-fried vegetables, tofu, and a tangy Pad Thai sauce.",
+        "ingredients": [
+          "200g rice noodles",
+          "200g firm tofu, cubed",
+          "2 tablespoons vegetable oil",
+          "1 red bell pepper, thinly sliced",
+          "1 carrot, julienned",
+          "1 cup bean sprouts",
+          "3 green onions, chopped",
+          "2 cloves garlic, minced",
+          "2 eggs, beaten",
+          "1/4 cup crushed peanuts",
+          "Lime wedges (for serving)",
+          "Fresh cilantro (for garnish)",
+          "For the Pad Thai Sauce:",
+          "3 tablespoons tamarind paste",
+          "3 tablespoons fish sauce (or soy sauce for a vegetarian version)",
+          "2 tablespoons brown sugar",
+          "1 tablespoon rice vinegar",
+          "1/2 teaspoon red pepper flakes (optional)"
+        ],
+        "instructions": [
+          "Cook the rice noodles according to package instructions until they are tender. Drain and set aside.",
+          "In a bowl, whisk together tamarind paste, fish sauce, brown sugar, rice vinegar, and red pepper flakes (if using) to make the Pad Thai sauce. Adjust the flavors to your taste.",
+          "In a large skillet or wok, heat vegetable oil over medium-high heat.",
+          "Add cubed tofu and sauté until it is lightly browned and crispy on the edges. Remove the tofu from the skillet and set it aside.",
+          "In the same skillet, add sliced red bell pepper and julienned carrot. Stir-fry until they are slightly tender.",
+          "Push the vegetables to the side of the skillet and add minced garlic to the empty space. Sauté the garlic until fragrant.",
+          "Push the vegetables and garlic to one side and pour the beaten eggs into the empty space. Scramble the eggs until they are cooked.",
+          "Add cooked rice noodles, sautéed tofu, bean sprouts, and chopped green onions to the skillet. Toss everything together to combine.",
+          "Pour the Pad Thai sauce over the noodles and vegetables. Stir-fry for a few more minutes until everything is well coated with the sauce.",
+          "Divide the Vegetable Pad Thai among serving plates.",
+          "Top with crushed peanuts and garnish with fresh cilantro.",
+          "Serve the Pad Thai with lime wedges on the side.",
+          "Enjoy the aromatic and delicious flavors of this Thai noodle dish!"
+        ],
+        "image": "food/vegetable_pad_thai.jpg"
+      }
+    ]
+  }
+  
