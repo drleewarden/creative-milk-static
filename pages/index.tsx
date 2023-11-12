@@ -81,8 +81,8 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <button onClick={reset}>reset</button>
-        <Heading searchCallback={searchCallback} classN="cm-container" />
+        {/* <button onClick={reset}>reset</button> */}
+        <Heading reset={reset} searchCallback={searchCallback} classN="cm-container" />
         {RECORD_TYPE === 'recipes' &&
           RECIPES.recipes[0].name}
         <div className={styles.grid + ' container-home'}>

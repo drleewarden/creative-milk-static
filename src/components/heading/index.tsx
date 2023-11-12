@@ -21,9 +21,10 @@ interface IProps {
   searchCallback(val: string): void
   children?: ReactNode
   classN?: string
+  reset: () => void
 }
 
-const Heading: React.FC<IProps> = ({ classN, searchCallback }: IProps) => {
+const Heading: React.FC<IProps> = ({ classN, searchCallback, reset }: IProps) => {
   const { fullName } = userStore()
   const [jobs, setJobs] = useState<IJobs[]>(COMPANIES)
   const [openDropdown, setOpenDropdown] = useState<boolean>(false)
@@ -53,6 +54,7 @@ const Heading: React.FC<IProps> = ({ classN, searchCallback }: IProps) => {
           }}
         />
         <InputSelect inputSearchList={searchResults} clear={clear} />
+        <button onClick={reset}>reset</button>
       </div>
       <hr className={`${styles.hr} drop-shadow-xl`} />
       {openDropdown && (
