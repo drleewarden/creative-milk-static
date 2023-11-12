@@ -46,7 +46,12 @@ const SubPages: NextPage<PageProps> = ({ slug }) => {
   })
 
   return (
-    <Recipe RecipeItem={recipe} />
+    <>
+      {
+        recipe &&
+        <Recipe RecipeItem={recipe} />
+      }
+    </>
   )
 }
 export default SubPages
