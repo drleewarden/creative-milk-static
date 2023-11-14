@@ -19,7 +19,7 @@
     "js-md5": "^0.7.3",
     "mime": "^2.5.2",
     "mobx-react": "^9.0.0",
-    "next": "11.1.2",
+    "next": "^11.1.4",
     "postcss-cli": "^9.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
@@ -28,7 +28,7 @@
     "swr": "^1.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^13.2.1",
+    "@commitlint/cli": "^18.4.1",
     "@commitlint/config-conventional": "^13.2.0",
     "@heroicons/react": "^2.0.16",
     "@svgr/webpack": "^6.2.1",
